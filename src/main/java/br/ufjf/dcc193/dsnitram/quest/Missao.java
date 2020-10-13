@@ -1,23 +1,23 @@
 package br.ufjf.dcc193.dsnitram.quest;
 
 public class Missao {
-  private Guerreiro guerreiro;
-  public Missao(Guerreiro guerreiro){
-    this.guerreiro = guerreiro;    
+  private Heroi heroi;
+  
+  public Missao(Heroi heroi){
+    this.heroi = heroi;    
   }
   public Missao(){}
 
-  
-  public Guerreiro getGuerreiro() {
-    return guerreiro;
+    public Heroi getHeroi() {
+    return heroi;
   }
 
-  public void setGuerreiro(Guerreiro guerreiro) {
-    this.guerreiro = guerreiro;
+  public void setHeroi(Heroi heroi) {
+    this.heroi = heroi;
   }
 public void iniciar() {
   System.out.println("A missão tem inicio...");
-  this.guerreiro.agir();
+  this.heroi.agir();
 }
 public void concluir() {
   System.out.println("A missão terminou...");
