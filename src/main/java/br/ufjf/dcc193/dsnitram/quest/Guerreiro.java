@@ -1,5 +1,8 @@
 package br.ufjf.dcc193.dsnitram.quest;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Guerreiro implements Heroi {
 
   public Guerreiro() {
